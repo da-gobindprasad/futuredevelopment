@@ -1,0 +1,51 @@
+.courses h2 {
+    text-transform: uppercase;
+    color: navy;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .course-text h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  }
+  
+  .coursebox {
+    display: flex;
+     background-color: #DBDBDB;
+     padding: 1rem;
+    color: #0C1E52;
+    gap: 2rem;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.5s;
+  }
+  
+  .coursebox:hover {
+    transform: translateY(-1.5rem);
+  }
+  
+  .coursebox p,
+  .coursebox h4 {
+    font-size: 1.5rem;
+  }
+
+  .course-list
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+
+    icons
+    {
+      border:2px solid red;
+      border-radius: 50%;
+    }
+
+    .icon{
+      stroke: #0C1E52;
+      padding: 1rem;
+      border:2px solid #0C1E52;
+      border-radius: 50%;
+    }

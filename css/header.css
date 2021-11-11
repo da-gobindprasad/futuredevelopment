@@ -1,0 +1,74 @@
+.header-section 
+{
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-name{
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img{
+  height: 5rem;
+  padding-right: 2rem;
+}
+
+.header-section h3 {
+  background: -webkit-linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:rgb(5, 5, 165);
+  font-size: 2rem;
+}
+
+.header-section a:link {
+  position: relative;
+  padding: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 8rem;
+}
+
+header a:visited {
+  color: black;
+}
+
+header a:hover {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.05);
+}
+  
+header a:active {
+  background-color: black;
+  color: white;
+}
+  
+header a:last-child {
+  margin-right: 1rem;
+}
+
+.menubar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+  /* Sticky Navigation */
+
+  .sticky .header{
+  position: fixed;
+  max-width:1400px;
+  background-color: #EDEDED;
+  z-index: 9999;
+  height: 3.5rem;
+  box-shadow: 0 1.2rem  3.2rem  rgba(0, 0, 0, 0.10);
+}
